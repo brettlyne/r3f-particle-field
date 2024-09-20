@@ -1,8 +1,8 @@
-# Particle Fields for React-Three-Fiber
+# Particle Field for React-Three-Fiber
 
 ## [👉 try it out](https://brettlyne.github.io/r3f-particle-field/)
 
-todo: add gif here
+![preview of r3f-particle-field](preview.gif "Preview of r3f-particle-field")
 
 ## installation
 
