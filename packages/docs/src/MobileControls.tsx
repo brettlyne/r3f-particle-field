@@ -56,7 +56,7 @@ const Controls: React.FC<ControlsProps> = ({
                 label="Animation"
                 icon={<AutoAwesomeIcon />}
               />
-              <BottomNavigationAction icon={<IosShareIcon />} />
+              <BottomNavigationAction label="Share" icon={<IosShareIcon />} />
             </BottomNavigation>
           </motion.div>
         )}
