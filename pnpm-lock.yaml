@@ -116,7 +116,7 @@ importers:
     dependencies:
       '@react-three/fiber':
         specifier: ^8.0.0
-        version: 8.17.7(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(three@0.150.1)
+        version: 8.17.7(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(three@0.168.0)
       react:
         specifier: ^18.0.0
         version: 18.3.1
@@ -124,8 +124,8 @@ importers:
         specifier: workspace:*
         version: link:../shared-types
       three:
-        specifier: ^0.150.0
-        version: 0.150.1
+        specifier: ^0.168.0
+        version: 0.168.0
     devDependencies:
       '@rollup/plugin-commonjs':
         specifier: ^22.0.0
@@ -2768,9 +2768,6 @@ packages:
     peerDependencies:
       three: '>=0.128.0'
 
-  three@0.150.1:
-    resolution: {integrity: sha512-5C1MqKUWaHYo13BX0Q64qcdwImgnnjSOFgBscOzAo8MYCzEtqfQqorEKMcajnA3FHy1yVlIe9AmaMQ0OQracNA==}
-
   three@0.168.0:
     resolution: {integrity: sha512-6m6jXtDwMJEK/GGMbAOTSAmxNdzKvvBzgd7q8bE/7Tr6m7PaBh5kKLrN7faWtlglXbzj7sVba48Idwx+NRsZXw==}
 
@@ -4234,25 +4231,6 @@ snapshots:
       - '@types/react'
       - '@types/three'
       - immer
-
-  '@react-three/fiber@8.17.7(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(three@0.150.1)':
-    dependencies:
-      '@babel/runtime': 7.25.6
-      '@types/debounce': 1.2.4
-      '@types/react-reconciler': 0.26.7
-      '@types/webxr': 0.5.20
-      base64-js: 1.5.1
-      buffer: 6.0.3
-      debounce: 1.2.1
-      its-fine: 1.2.5(react@18.3.1)
-      react: 18.3.1
-      react-reconciler: 0.27.0(react@18.3.1)
-      scheduler: 0.21.0
-      suspend-react: 0.1.3(react@18.3.1)
-      three: 0.150.1
-      zustand: 3.7.2(react@18.3.1)
-    optionalDependencies:
-      react-dom: 18.3.1(react@18.3.1)
 
   '@react-three/fiber@8.17.7(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(three@0.168.0)':
     dependencies:
@@ -5983,8 +5961,6 @@ snapshots:
       fflate: 0.6.10
       potpack: 1.0.2
       three: 0.168.0
-
-  three@0.150.1: {}
 
   three@0.168.0: {}
 
