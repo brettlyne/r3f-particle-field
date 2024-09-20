@@ -15,16 +15,16 @@ import OnOffToggle from "./components/OnOffToggle";
 import { bgPresets, getCssFromBgState } from "./utils/backgroundHelper";
 
 const presetImages = [
-  "/presets/preset-1.png",
-  "/presets/preset-2.png",
-  "/presets/preset-3.png",
-  "/presets/preset-4.png",
-  "/presets/preset-5.png",
-  "/presets/preset-6.png",
-  "/presets/preset-7.png",
-  "/presets/preset-8.png",
-  "/presets/preset-9.png",
-  "/presets/preset-10.png",
+  "presets/preset-1.png",
+  "presets/preset-2.png",
+  "presets/preset-3.png",
+  "presets/preset-4.png",
+  "presets/preset-5.png",
+  "presets/preset-6.png",
+  "presets/preset-7.png",
+  "presets/preset-8.png",
+  "presets/preset-9.png",
+  "presets/preset-10.png",
 ];
 
 const dimensionPresets: { label: string; value: [string, string] }[] = [
