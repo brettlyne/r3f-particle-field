@@ -1,4 +1,4 @@
-import { VisualizationState } from "./visualizationState";
+import { VisualizationState } from "shared-types";
 
 const FIELD_SIZE = 8; // centered on the origin
 
