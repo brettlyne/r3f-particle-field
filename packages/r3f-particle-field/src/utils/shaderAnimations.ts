@@ -1,10 +1,4 @@
-export type AnimationMode =
-  | "ripples"
-  | "waves"
-  | "jello"
-  | "banner"
-  | "orbits"
-  | "snake";
+import { AnimationMode } from "shared-types";
 
 export const getAnimationShaderChunk = (
   animationMode: AnimationMode,

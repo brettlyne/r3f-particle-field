@@ -1,4 +1,4 @@
-import { VisualizationState } from "./visualizationState";
+import { VisualizationState } from "shared-types";
 import chroma from "chroma-js";
 
 export const bgPresets = [

@@ -1,7 +1,7 @@
 import React, { useRef, useMemo, useEffect, useState } from "react";
 import { useFrame } from "@react-three/fiber";
 import * as THREE from "three";
-import { AnimationMode } from "./utils/shaderAnimations";
+import { AnimationMode } from "shared-types";
 import {
   getAnimationShaderChunk,
   getAnimationMainCode,

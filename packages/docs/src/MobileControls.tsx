@@ -16,10 +16,7 @@ import FieldControls from "./FieldControls";
 import ShapeControls from "./ShapeControls";
 import AnimationControls from "./AnimationControls";
 import ShareControls from "./ShareControls";
-import {
-  VisualizationState,
-  VisualizationStateUpdater,
-} from "./utils/visualizationState";
+import { VisualizationState, VisualizationStateUpdater } from "shared-types";
 
 interface ControlsProps {
   state: VisualizationState;

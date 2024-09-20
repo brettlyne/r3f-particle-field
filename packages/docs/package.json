@@ -8,6 +8,8 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "r3f-particle-field": "workspace:*",
+    "shared-types": "workspace:*",
     "@emotion/react": "^11.13.0",
     "@emotion/styled": "^11.13.0",
     "@mui/icons-material": "^5.16.7",
@@ -18,7 +20,6 @@
     "framer-motion": "^11.5.5",
     "json-stringify-pretty-compact": "^4.0.0",
     "query-string": "^9.1.0",
-    "r3f-particle-field": "workspace:*",
     "react": "^18.0.0",
     "react-colorful": "^5.6.1",
     "react-dom": "^18.0.0",

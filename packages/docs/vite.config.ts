@@ -9,6 +9,7 @@ export default defineConfig({
       registerType: "autoUpdate",
       workbox: {
         globPatterns: ["**/*.{js,css,html,ico,png,svg}"],
+        maximumFileSizeToCacheInBytes: 3000000,
       },
       manifest: {
         name: "R3F Particle Field",

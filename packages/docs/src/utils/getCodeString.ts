@@ -1,4 +1,4 @@
-import { VisualizationState } from "./visualizationState";
+import { VisualizationState } from "shared-types";
 import { getCssFromBgState } from "./backgroundHelper";
 import stringify from "json-stringify-pretty-compact";
 

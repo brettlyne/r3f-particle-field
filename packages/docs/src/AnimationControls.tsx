@@ -6,11 +6,11 @@ import Tabs from "@mui/material/Tabs";
 import Tab from "@mui/material/Tab";
 import Slider from "@mui/material/Slider";
 
-import { AnimationMode } from "./utils/shaderAnimations";
 import {
+  AnimationMode,
   VisualizationState,
   VisualizationStateUpdater,
-} from "./utils/visualizationState";
+} from "shared-types";
 
 interface ControlsProps {
   state: VisualizationState;

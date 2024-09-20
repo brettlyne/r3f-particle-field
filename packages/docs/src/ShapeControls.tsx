@@ -8,10 +8,7 @@ import Slider from "@mui/material/Slider";
 
 import { HexColorPicker } from "react-colorful";
 
-import {
-  VisualizationState,
-  VisualizationStateUpdater,
-} from "./utils/visualizationState";
+import { VisualizationState, VisualizationStateUpdater } from "shared-types";
 
 interface ControlsProps {
   state: VisualizationState;

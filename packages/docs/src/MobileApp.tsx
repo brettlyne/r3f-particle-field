@@ -8,8 +8,8 @@ import { getCssFromBgState } from "./utils/backgroundHelper";
 import { ParticleField } from "r3f-particle-field";
 import MobileControls from "./MobileControls";
 import "./mobile.css";
+import { VisualizationState } from "shared-types";
 import {
-  VisualizationState,
   updateVisualizationState,
   unflattenState,
   preset1,
@@ -38,6 +38,7 @@ const CameraController = ({
 
 const App: React.FC = () => {
   const [vState, setVState] = useState<VisualizationState>(preset1);
+  // @ts-ignore-next-line
   const controlsRef = useRef<ArcballControls>(null);
   const [bgCSS, setBgCSS] = useState("#f0f0f0");
   const { particleConfig, editorConfig } = vState;

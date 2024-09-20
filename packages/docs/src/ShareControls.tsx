@@ -10,10 +10,7 @@ import Tabs from "@mui/material/Tabs";
 import Tab from "@mui/material/Tab";
 
 import getCodeString from "./utils/getCodeString";
-import {
-  VisualizationState,
-  VisualizationStateUpdater,
-} from "./utils/visualizationState";
+import { VisualizationState, VisualizationStateUpdater } from "shared-types";
 
 interface ControlsProps {
   state: VisualizationState;

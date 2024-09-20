@@ -59,6 +59,9 @@ importers:
       react-syntax-highlighter:
         specifier: ^15.5.0
         version: 15.5.0(react@18.3.1)
+      shared-types:
+        specifier: workspace:*
+        version: link:../shared-types
       three:
         specifier: ^0.168.0
         version: 0.168.0
@@ -117,6 +120,9 @@ importers:
       react:
         specifier: ^18.0.0
         version: 18.3.1
+      shared-types:
+        specifier: workspace:*
+        version: link:../shared-types
       three:
         specifier: ^0.150.0
         version: 0.150.1
@@ -148,6 +154,12 @@ importers:
       typescript:
         specifier: ^4.9.0
         version: 4.9.5
+
+  packages/shared-types:
+    devDependencies:
+      typescript:
+        specifier: ^5.6.2
+        version: 5.6.2
 
 packages:
 

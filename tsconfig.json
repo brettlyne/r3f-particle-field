@@ -2,6 +2,7 @@
   "files": [],
   "references": [
     { "path": "./packages/r3f-particle-field" },
-    { "path": "./packages/docs" }
+    { "path": "./packages/docs" },
+    { "path": "./packages/shared-types" }
   ]
 }

@@ -13,28 +13,18 @@ import chroma from "chroma-js";
 import OnOffToggle from "./components/OnOffToggle";
 
 import { bgPresets, getCssFromBgState } from "./utils/backgroundHelper";
-import preset1img from "/presets/preset-1.png";
-import preset2img from "/presets/preset-2.png";
-import preset3img from "/presets/preset-3.png";
-import preset4img from "/presets/preset-4.png";
-import preset5img from "/presets/preset-5.png";
-import preset6img from "/presets/preset-6.png";
-import preset7img from "/presets/preset-7.png";
-import preset8img from "/presets/preset-8.png";
-import preset9img from "/presets/preset-9.png";
-import preset10img from "/presets/preset-10.png";
 
 const presetImages = [
-  preset1img,
-  preset2img,
-  preset3img,
-  preset4img,
-  preset5img,
-  preset6img,
-  preset7img,
-  preset8img,
-  preset9img,
-  preset10img,
+  "/presets/preset-1.png",
+  "/presets/preset-2.png",
+  "/presets/preset-3.png",
+  "/presets/preset-4.png",
+  "/presets/preset-5.png",
+  "/presets/preset-6.png",
+  "/presets/preset-7.png",
+  "/presets/preset-8.png",
+  "/presets/preset-9.png",
+  "/presets/preset-10.png",
 ];
 
 const dimensionPresets: { label: string; value: [string, string] }[] = [
@@ -44,11 +34,8 @@ const dimensionPresets: { label: string; value: [string, string] }[] = [
   { label: "100% × 20rem", value: ["100%", "20rem"] },
 ];
 
-import {
-  VisualizationState,
-  VisualizationStateUpdater,
-  presets,
-} from "./utils/visualizationState";
+import { VisualizationState, VisualizationStateUpdater } from "shared-types";
+import { presets } from "./utils/visualizationState";
 
 interface ControlsProps {
   state: VisualizationState;
