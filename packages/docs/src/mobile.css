@@ -13,6 +13,12 @@ body {
   color: white;
 }
 
+a,
+a:visited {
+  color: white;
+  font-weight: bold;
+}
+
 .scene-controls {
   background-color: #1a1a1a;
   position: absolute;
