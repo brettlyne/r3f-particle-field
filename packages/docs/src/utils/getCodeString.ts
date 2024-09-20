@@ -12,7 +12,8 @@ const getCodeString = (state: VisualizationState) => {
     to4Decimals
   ) as [number, number];
 
-  let codeString = `import React from "react";
+  let codeString = `// 🟢 installation guide at https://github.com/brettlyne/r3f-particle-field
+import React from "react";
 import { Canvas } from "@react-three/fiber";
 `;
 
@@ -23,7 +24,7 @@ import { Canvas } from "@react-three/fiber";
   else if (editorConfig.interactiveCamera)
     codeString += `import { ArcballControls } from '@react-three/drei';\n`;
 
-  codeString += `import { PartcleField } from "r3f-particle-field";
+  codeString += `import { ParticleField } from "r3f-particle-field";
 
 const particleConfig = `;
   codeString += stringify(particleConfig);
@@ -58,7 +59,7 @@ const MyParticleCanvas: React.FC = () => {
         }}
       >
         <Canvas camera={cameraConfig}>
-          <HexagonParticles {...particleConfig} />\n`;
+          <ParticleField {...particleConfig} />\n`;
 
   if (editorConfig.interactiveCamera)
     codeString += `          <ArcballControls />\n`;
