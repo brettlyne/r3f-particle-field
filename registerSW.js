@@ -1,0 +1,1 @@
+if('serviceWorker' in navigator) {window.addEventListener('load', () => {navigator.serviceWorker.register('/r3f-particle-field/sw.js', { scope: '/r3f-particle-field/' })})}
