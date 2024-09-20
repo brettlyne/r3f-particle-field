@@ -122,13 +122,28 @@ const AnimationControls: React.FC<ControlsProps> = ({
           style={oneDark}
           customStyle={{
             fontWeight: "500",
-            overflow: "scroll",
+            overflow: "auto",
             maxHeight: "80vh",
           }}
           className="info"
         >
           {getCodeString(state)}
         </SyntaxHighlighter>
+      )}
+
+      {tab === "info" && (
+        <div className="tile-control">
+          <p>
+            See{" "}
+            <a
+              target="_blank"
+              href="https://github.com/brettlyne/r3f-particle-field"
+            >
+              GitHub
+            </a>{" "}
+            for additional documentation.
+          </p>
+        </div>
       )}
 
       <div className="tabs">
@@ -141,7 +156,7 @@ const AnimationControls: React.FC<ControlsProps> = ({
         >
           <Tab label="Share" value="share" />
           <Tab label="Code Export" value="export" />
-          <Tab label="About" value="about" />
+          <Tab label="More Info" value="info" />
         </Tabs>
       </div>
       <div className="solo-button">
