@@ -1,0 +1,45 @@
+{
+  "name": "r3f-particle-field-docs",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.13.0",
+    "@emotion/styled": "^11.13.0",
+    "@mui/icons-material": "^5.16.7",
+    "@mui/material": "^5.16.7",
+    "@react-three/drei": "^9.112.0",
+    "@react-three/fiber": "^8.0.0",
+    "chroma-js": "^3.1.1",
+    "framer-motion": "^11.5.5",
+    "json-stringify-pretty-compact": "^4.0.0",
+    "query-string": "^9.1.0",
+    "r3f-particle-field": "workspace:*",
+    "react": "^18.0.0",
+    "react-colorful": "^5.6.1",
+    "react-dom": "^18.0.0",
+    "react-syntax-highlighter": "^15.5.0",
+    "three": "^0.168.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.0",
+    "@types/react-dom": "^18.3.0",
+    "@types/three": "^0.150.0",
+    "@typescript-eslint/eslint-plugin": "^8.6.0",
+    "@typescript-eslint/parser": "^8.6.0",
+    "@vitejs/plugin-react": "^3.1.0",
+    "autoprefixer": "^10.4.20",
+    "eslint": "^8.0.0-0",
+    "eslint-plugin-react-hooks": "^4.6.2",
+    "eslint-plugin-react-refresh": "^0.4.12",
+    "gh-pages": "^6.1.1",
+    "postcss": "^8.4.47",
+    "typescript": "^5.6.2",
+    "vite": "^4.5.5",
+    "vite-plugin-pwa": "^0.20.5"
+  }
+}

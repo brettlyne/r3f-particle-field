@@ -1,0 +1,13 @@
+{
+  "name": "r3f-particle-field-monorepo",
+  "private": true,
+  "scripts": {
+    "build": "pnpm run -r build",
+    "build:docs": "pnpm run --filter r3f-particle-field-docs build",
+    "build:r3f-particle-field": "pnpm run --filter r3f-particle-field build",
+    "dev": "pnpm run --filter r3f-particle-field-docs dev"
+  },
+  "devDependencies": {
+    "typescript": "^4.9.0"
+  }
+}

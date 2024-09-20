@@ -1,0 +1,7 @@
+{
+  "files": [],
+  "references": [
+    { "path": "./packages/r3f-particle-field" },
+    { "path": "./packages/docs" }
+  ]
+}
