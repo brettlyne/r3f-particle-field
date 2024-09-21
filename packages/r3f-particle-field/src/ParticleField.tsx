@@ -18,63 +18,63 @@ import {
 } from "./utils/particleArrangements";
 
 interface ParticleFieldProps {
-  density: number;
-  arrangement:
+  density?: number;
+  arrangement?:
     | "grid"
     | "staggeredGrid"
     | "circular"
     | "spiral"
     | "random"
     | "hexagon";
-  zAxisArrangement: "flat" | "dome" | "wavy" | "valley" | "cone" | "random";
-  particleSize: number;
-  center: [number, number, number];
-  rippleCenter: [number, number, number];
-  animationMagnitude: number;
-  rotationMode: "constant" | "fieldLinear" | "fieldRadial" | "zPosition";
-  rotationRange: [number, number];
-  color1: string;
-  color2: string;
-  animationMode: AnimationMode;
-  colorMode: ColorMode;
-  innerRadius: number;
-  innerScaling: number;
-  outerRadius: number;
-  outerScaling: number;
-  animationSpeed: number;
-  xMagnitude: number;
-  yMagnitude: number;
-  orbitInnerRadius: number;
-  orbitScale: number;
-  depthTestOn: boolean;
-  imagePath: string;
+  zAxisArrangement?: "flat" | "dome" | "wavy" | "valley" | "cone" | "random";
+  particleSize?: number;
+  center?: [number, number, number];
+  rippleCenter?: [number, number, number];
+  animationMagnitude?: number;
+  rotationMode?: "constant" | "fieldLinear" | "fieldRadial" | "zPosition";
+  rotationRange?: [number, number];
+  color1?: string;
+  color2?: string;
+  animationMode?: AnimationMode;
+  colorMode?: ColorMode;
+  innerRadius?: number;
+  innerScaling?: number;
+  outerRadius?: number;
+  outerScaling?: number;
+  animationSpeed?: number;
+  xMagnitude?: number;
+  yMagnitude?: number;
+  orbitInnerRadius?: number;
+  orbitScale?: number;
+  depthTestOn?: boolean;
+  imagePath?: string;
 }
 
 const ParticleField: React.FC<ParticleFieldProps> = ({
-  density,
-  arrangement,
-  zAxisArrangement,
-  particleSize,
-  center,
-  rippleCenter,
-  animationMagnitude,
-  rotationMode,
-  rotationRange,
-  color1,
-  color2,
-  animationMode,
-  colorMode,
-  innerRadius,
-  innerScaling,
-  outerRadius,
-  outerScaling,
-  animationSpeed,
-  xMagnitude,
-  yMagnitude,
-  orbitInnerRadius,
-  orbitScale,
-  depthTestOn,
-  imagePath,
+  density = 4.8,
+  arrangement = "circular",
+  zAxisArrangement = "dome",
+  particleSize = 45,
+  center = [3.5, 0.5, 0],
+  rippleCenter = [4.3, 0, 0],
+  animationMagnitude = 1,
+  rotationMode = "fieldRadial",
+  rotationRange = [5.23, 7.52],
+  color1 = "#154778",
+  color2 = "#eff8ff",
+  animationMode = "waves",
+  colorMode = "zPosition",
+  innerRadius = 0,
+  innerScaling = 0.8,
+  outerRadius = 6.1,
+  outerScaling = 1.2,
+  animationSpeed = -1,
+  xMagnitude = 1.4,
+  yMagnitude = 3,
+  orbitInnerRadius = 0,
+  orbitScale = 1,
+  depthTestOn = false,
+  imagePath = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACIAAAAiBAMAAADIaRbxAAAAGFBMVEVHcEyqscEGBgbReDXL1u1xeoxMVW6lVyqLGJulAAAAAXRSTlMAQObYZgAAAI9JREFUeAHVj7UVw1AMRX28wQvV/zwH6sTUGjRAuA734fHNvIHvR7Gk9Rmd7GgWpqlKW/78//9X8TXTl/NHSq4yTKXzfsg4Mk+wmh+QMT5DpWFvcwMBfF8mWA6yMBepBolmaEBlPj5yEh+oLA8lwTQ/E0BUVksjMDRNdyzCqh+R0Pz4e9Y9M9EFndFIpfWVGMgzG7If2i4zAAAAAElFTkSuQmCC",
 }) => {
   const points = useRef<THREE.Points>(null);
   const [resetFlag, setResetFlag] = useState(0);
