@@ -18,6 +18,7 @@ npm install r3f-particle-field
 ```
 
 **Use the configuration tool**
+
 Use the [interactive configurator](https://brettlyne.github.io/r3f-particle-field/) to try out presets and build your particle field.
 There is a **code export** in the Share tab.
 
