@@ -1,12 +1,13 @@
 {
   "name": "r3f-particle-field",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "A customizable particle field for React Three Fiber",
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
   "types": "dist/index.d.ts",
   "files": [
-    "dist"
+    "dist",
+    "README.md"
   ],
   "scripts": {
     "build": "rollup -c",
