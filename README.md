@@ -2,7 +2,7 @@
 
 ## [👉 try it out](https://brettlyne.github.io/r3f-particle-field/)
 
-![preview of r3f-particle-field](preview.gif "Preview of r3f-particle-field")
+![preview of r3f-particle-field](https://github.com/brettlyne/r3f-particle-field/blob/main/preview.gif?raw=true "Preview of r3f-particle-field")
 
 ## installation
 
