@@ -16,7 +16,10 @@ import FieldControls from "./FieldControls";
 import ShapeControls from "./ShapeControls";
 import AnimationControls from "./AnimationControls";
 import ShareControls from "./ShareControls";
-import { VisualizationState, VisualizationStateUpdater } from "shared-types";
+import {
+  VisualizationState,
+  VisualizationStateUpdater,
+} from "r3f-particle-field/src/types";
 
 interface ControlsProps {
   state: VisualizationState;

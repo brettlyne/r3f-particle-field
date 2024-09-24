@@ -8,7 +8,7 @@ import { getCssFromBgState } from "./utils/backgroundHelper";
 import { ParticleField } from "r3f-particle-field";
 import MobileControls from "./MobileControls";
 import "./mobile.css";
-import { VisualizationState } from "shared-types";
+import { VisualizationState } from "r3f-particle-field/src/types";
 import {
   updateVisualizationState,
   unflattenState,

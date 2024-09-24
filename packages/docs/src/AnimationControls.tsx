@@ -10,7 +10,7 @@ import {
   AnimationMode,
   VisualizationState,
   VisualizationStateUpdater,
-} from "shared-types";
+} from "r3f-particle-field/src/types";
 
 interface ControlsProps {
   state: VisualizationState;

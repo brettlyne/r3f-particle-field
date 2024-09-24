@@ -3,7 +3,6 @@
   "private": true,
   "scripts": {
     "build": "pnpm run -r build",
-    "build:shared-types": "pnpm run --filter shared-types build",
     "build:r3f-particle-field": "pnpm run --filter r3f-particle-field build",
     "build:docs": "pnpm run --filter r3f-particle-field-docs build",
     "deploy:docs": "pnpm run --filter r3f-particle-field-docs deploy",

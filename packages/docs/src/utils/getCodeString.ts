@@ -1,4 +1,4 @@
-import { VisualizationState } from "shared-types";
+import { VisualizationState } from "r3f-particle-field/src/types";
 import { getCssFromBgState } from "./backgroundHelper";
 import stringify from "json-stringify-pretty-compact";
 

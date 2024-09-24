@@ -6,7 +6,10 @@ import Tabs from "@mui/material/Tabs";
 import Tab from "@mui/material/Tab";
 import Slider from "@mui/material/Slider";
 
-import { VisualizationState, VisualizationStateUpdater } from "shared-types";
+import {
+  VisualizationState,
+  VisualizationStateUpdater,
+} from "r3f-particle-field/src/types";
 
 interface ControlsProps {
   state: VisualizationState;

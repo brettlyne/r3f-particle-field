@@ -17,9 +17,6 @@
     "postpack": "rm README.md",
     "prepublishOnly": "npm run build"
   },
-  "dependencies": {
-    "shared-types": "workspace:*"
-  },
   "peerDependencies": {
     "@react-three/fiber": ">=8.0.0",
     "react": ">=16.8.0",

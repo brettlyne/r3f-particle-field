@@ -8,7 +8,10 @@ import Slider from "@mui/material/Slider";
 
 import { HexColorPicker } from "react-colorful";
 
-import { VisualizationState, VisualizationStateUpdater } from "shared-types";
+import {
+  VisualizationState,
+  VisualizationStateUpdater,
+} from "r3f-particle-field/src/types";
 
 interface ControlsProps {
   state: VisualizationState;

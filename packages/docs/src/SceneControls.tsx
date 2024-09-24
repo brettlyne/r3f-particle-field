@@ -34,7 +34,10 @@ const dimensionPresets: { label: string; value: [string, string] }[] = [
   { label: "100% × 20rem", value: ["100%", "20rem"] },
 ];
 
-import { VisualizationState, VisualizationStateUpdater } from "shared-types";
+import {
+  VisualizationState,
+  VisualizationStateUpdater,
+} from "r3f-particle-field/src/types";
 import { presets } from "./utils/visualizationState";
 
 interface ControlsProps {

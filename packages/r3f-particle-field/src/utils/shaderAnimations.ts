@@ -1,4 +1,4 @@
-import { AnimationMode } from "shared-types";
+import { AnimationMode } from "../types";
 
 export const getAnimationShaderChunk = (
   animationMode: AnimationMode,
