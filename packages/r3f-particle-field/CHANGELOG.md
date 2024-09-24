@@ -1,3 +1,3 @@
-### 0.1.1 (2024-09-23)
+### 0.1.6 (2024-09-24)
 
-- add symlink to README
+- first version that works!
