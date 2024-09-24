@@ -1,6 +1,10 @@
 # Particle Field for React-Three-Fiber
 
-## [👉 try it out](https://brettlyne.github.io/r3f-particle-field/)
+<a href="https://www.npmjs.com/package/r3f-particle-field"><img src="https://img.shields.io/npm/v/r3f-particle-field"></a>
+<a href="https://www.npmjs.com/package/r3f-particle-field"><img src="https://img.shields.io/npm/dm/r3f-particle-field"></a>
+
+## [👉 try out the configurator](https://brettlyne.github.io/r3f-particle-field/)
+Presets under the Scene tab are a good place to start
 
 ![preview of r3f-particle-field](https://github.com/brettlyne/r3f-particle-field/blob/main/preview.gif?raw=true "Preview of r3f-particle-field")
 
