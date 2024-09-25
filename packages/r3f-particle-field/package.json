@@ -1,13 +1,12 @@
 {
   "name": "r3f-particle-field",
-  "version": "0.1.6",
+  "version": "0.1.7",
   "description": "A customizable particle field for React Three Fiber",
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
   "types": "dist/index.d.ts",
   "files": [
-    "dist",
-    "README.md"
+    "dist"
   ],
   "scripts": {
     "build": "rollup -c",
@@ -17,6 +16,20 @@
     "postpack": "rm README.md",
     "prepublishOnly": "npm run build"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/brettlyne/r3f-particle-field.git"
+  },
+  "keywords": [
+    "react",
+    "three.js",
+    "react-three-fiber",
+    "particles",
+    "3D"
+  ],
+  "author": "Brett Holcomb <brett.holcomb@gmail.com>",
+  "homepage": "https://github.com/brettlyne/r3f-particle-field#readme",
+  "demo": "https://brettlyne.github.io/r3f-particle-field/",
   "peerDependencies": {
     "@react-three/fiber": ">=8.0.0",
     "react": ">=16.8.0",
