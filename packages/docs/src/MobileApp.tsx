@@ -38,6 +38,7 @@ const CameraController = ({
 
 const App: React.FC = () => {
   const [vState, setVState] = useState<VisualizationState>(preset1);
+  const [reloadKey, setReloadKey] = useState(0); // to force re-render when loading data from URL
   // @ts-ignore-next-line
   const controlsRef = useRef<ArcballControls>(null);
   const [bgCSS, setBgCSS] = useState("#f0f0f0");
@@ -53,6 +54,7 @@ const App: React.FC = () => {
     if (Object.keys(parsed).length > 0) {
       const newState = unflattenState(parsed);
       setVState(newState);
+      setReloadKey((prev) => prev + 1);
     }
   }, []);
 
@@ -128,7 +130,7 @@ const App: React.FC = () => {
               fov={editorConfig.fov}
               cameraMatrix={editorConfig.cameraMatrix}
             />
-            <ParticleField {...particleConfig} />
+            <ParticleField key={reloadKey} {...particleConfig} />
             {editorConfig.interactiveCamera && (
               <ArcballControls
                 ref={controlsRef}
