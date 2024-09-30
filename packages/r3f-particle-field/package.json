@@ -1,6 +1,6 @@
 {
   "name": "r3f-particle-field",
-  "version": "0.1.7",
+  "version": "0.1.8",
   "description": "A customizable particle field for React Three Fiber",
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
