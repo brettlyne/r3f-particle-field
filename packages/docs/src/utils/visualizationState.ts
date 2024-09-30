@@ -16,7 +16,7 @@ const editorConfigKeys = [
 export const unflattenState = (obj): VisualizationState => {
   const state: VisualizationState = preset1;
   Object.keys(obj).forEach((key) => {
-    if (key in state.editorConfig) {
+    if (editorConfigKeys.includes(key)) {
       state.editorConfig[key] = obj[key];
     } else {
       state.particleConfig[key] = obj[key];
