@@ -10,7 +10,6 @@
   },
   "dependencies": {
     "r3f-particle-field": "workspace:*",
-    "shared-types": "workspace:*",
     "@emotion/react": "^11.13.0",
     "@emotion/styled": "^11.13.0",
     "@mui/icons-material": "^5.16.7",
